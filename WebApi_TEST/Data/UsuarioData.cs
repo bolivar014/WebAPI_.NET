@@ -33,7 +33,7 @@ namespace WebApi_TEST.Data
                 }
             }
         }
-
+        // Evento para Actualizar USUARIOS en base de datos
         public static bool Modificar(Usuario objUsuario)
         {
             using (SqlConnection objConexion = new SqlConnection(Conexion.conexionDB))
@@ -59,5 +59,47 @@ namespace WebApi_TEST.Data
                 }
             }
         }
+
+        // Evento para listar usuarios
+        public static List<Usuario> Listar()
+        {
+            List<Usuario> objListaUsuarios = new List<Usuario>();
+            using (SqlConnection objConexion = new SqlConnection(Conexion.conexionDB))
+            {
+                SqlCommand cmd = new SqlCommand("usp_listar", objConexion);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                try
+                {
+                    objConexion.Open();
+                    // cmd.ExecuteNonQuery();
+
+                    using (SqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        while (dr.Read())
+                        {
+                            objListaUsuarios.Add(new Usuario()
+                            {
+                                IdUsuario = Convert.ToInt32(dr["IdUsuario"]),
+                                DocumentoIdentidad = dr["DocumentoIdentidad"].ToString(),
+                                Nombres = dr["Nombres"].ToString(),
+                                Telefono = dr["Telefono"].ToString(),
+                                Correo = dr["Correo"].ToString(),
+                                Ciudad = dr["Ciudad"].ToString(),
+                                FechaRegistro = Convert.ToDateTime(dr["FechaRegistro"].ToString())
+                            });
+                        }
+
+                        // 
+                        return objListaUsuarios;
+                    }
+                } catch (Exception ex)
+                {
+                    return objListaUsuarios;
+                }
+            }
+        }
+
+        // 
     }
 }
