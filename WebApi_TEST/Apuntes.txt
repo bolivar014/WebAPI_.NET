@@ -1,0 +1,2 @@
+﻿Models => Es la copia de todas las columnas en base de dato
+

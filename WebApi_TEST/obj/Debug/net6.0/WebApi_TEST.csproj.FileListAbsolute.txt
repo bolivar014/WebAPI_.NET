@@ -1,0 +1,8 @@
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\WebApi_TEST.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\WebApi_TEST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\WebApi_TEST.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\WebApi_TEST.AssemblyInfo.cs
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\WebApi_TEST.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\WebApi_TEST.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\WebApi_TEST.RazorAssemblyInfo.cache
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\WebApi_TEST.RazorAssemblyInfo.cs
