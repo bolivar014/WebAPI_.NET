@@ -143,5 +143,24 @@ namespace WebApi_TEST.Data
         }
 
         // 
+        public static bool Eliminar(int idUsuario)
+        {
+            using(SqlConnection objConexion = new SqlConnection())
+            {
+                SqlCommand cmd = new SqlCommand("usp_eliminar", objConexion);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@idusuario", idUsuario);
+
+                try
+                {
+                    objConexion.Open();
+                    cmd.ExecuteNonQuery();
+                    return true;
+                } catch (Exception ex)
+                {
+                    return false;
+                }
+            }
+        }
     }
 }
