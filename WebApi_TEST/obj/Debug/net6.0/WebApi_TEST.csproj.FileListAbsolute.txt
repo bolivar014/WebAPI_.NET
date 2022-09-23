@@ -31,3 +31,9 @@ C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\refint\WebAp
 C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\WebApi_TEST.pdb
 C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\WebApi_TEST.genruntimeconfig.cache
 C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\obj\Debug\net6.0\ref\WebApi_TEST.dll
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\bin\Debug\net6.0\System.Web.Cors.dll
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\bin\Debug\net6.0\System.Web.Http.Cors.dll
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\user\source\repos\WebApi_TEST\WebApi_TEST\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
